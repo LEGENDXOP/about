@@ -1,4 +1,11 @@
+console.clear()
 console.log("HELLO PAGE");
+
+jaan = document.getElementById("jaan")
+jaan.addEventListener("click", ()=> {
+  location.replace("jaan.html")
+})
+
 $(function () {
   $(".menu").click(function () {
     document.getElementById("menu-list").classList.toggle("show");
