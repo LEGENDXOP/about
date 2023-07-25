@@ -1,1 +1,1 @@
-https://LEGENDX22.com
+https://LEGENDX.co
