@@ -1,5 +1,5 @@
 body {
-    background: url('https://te.legra.ph/file/71416af01ff5bad4cc60e.jpg') no-repeat center center fixed; 
+    background: url('https://your-image-url.com') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -33,5 +33,10 @@ a {
 }
 
 .card-body a {
+    color: #000;
+}
+
+#about h1,
+#about p {
     color: #000;
 }
