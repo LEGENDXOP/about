@@ -3,47 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>LEGENDX | Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card-img {
+            width: 30px;
+            height: auto;
+        }
+        .card {
+            border-radius: 20px;
+        }
+        body {
+            background: #e9ecef;
+        }
+    </style>
+    <title>LEGENDX Portfolio</title>
 </head>
 <body>
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="logo-card">
-        <img src="https://te.legra.ph/file/5e46176596760715824bc.jpg" alt="Logo" class="logo rounded-circle">
-      </div>
-    </div>
-    <div id="about" class="content-section">
-      <h1 class="text-center">About</h1>
-      <p class="text-center">I'll add soon</p>
-    </div>
-
-    <div id="contact" class="content-section">
-      <h1 class="text-center">Contact</h1>
-      <div class="card-deck">
-        <div class="card">
-          <div class="card-body text-center">
-            <img src="images/mail-img.png" alt="email logo" class="contact-icon">
-            <p class="card-text">Email: Legendx@legendx.co</p>
-          </div>
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <img class="card-img-top rounded-circle mb-3" src="https://te.legra.ph/file/5e46176596760715824bc.jpg" alt="Logo">
+            <h1>LEGENDX</h1>
+            <h5 class="text-muted">Android Developer | Python Expert</h5>
         </div>
-        <div class="card">
-          <div class="card-body text-center">
-            <img src="images/telegram-img.png" alt="telegram logo" class="contact-icon">
-            <p class="card-text">Telegram: <a href="https://telegram.me/LEGENDX22">LEGENDX22</a></p>
-          </div>
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">About</h5>
+                <p class="card-text">I'll add soon</p>
+            </div>
         </div>
-        <div class="card">
-          <div class="card-body text-center">
-            <img src="Instagram-img.jpeg" alt="instagram logo" class="contact-icon">
-            <p class="card-text">Instagram: <a href="https://instagram.com/legendx08377">legendx08377</a></p>
-          </div>
+        <div class="card mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-1 d-flex align-items-center justify-content-center">
+                    <img src="images/mail-img.png" class="card-img" alt="email">
+                </div>
+                <div class="col-md-11">
+                    <div class="card-body">
+                        <h5 class="card-title">Email</h5>
+                        <p class="card-text">LEGENDX - MAIL</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+        <div class="card mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-1 d-flex align-items-center justify-content-center">
+                    <img src="images/telegram-img.png" class="card-img" alt="telegram">
+                </div>
+                <div class="col-md-11">
+                    <div class="card-body">
+                        <h5 class="card-title">Telegram</h5>
+                        <p class="card-text"><a href="https://telegram.me/LEGENDX22">LEGENDX22</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-1 d-flex align-items-center justify-content-center">
+                    <img src="images/instagram-img.jpeg" class="card-img" alt="instagram">
+                </div>
+                <div class="col-md-11">
+                    <div class="card-body">
+                        <h5 class="card-title">Instagram</h5>
+                        <p class="card-text"><a href="https://instagram.com/legendx08377">LEGENDX08377</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
