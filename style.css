@@ -1,5 +1,9 @@
 body {
-    background-color: black;
+    background: url('https://te.legra.ph/file/24d8e263bfc63b736038c.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: white;
     margin: 0;
     padding: 0;
@@ -12,6 +16,10 @@ body {
 
 .logo {
     width: 100px;
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .content-section {
