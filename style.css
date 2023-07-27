@@ -10,6 +10,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.card-title {
+    color: black;
+}
+
 
 .card-img-top {
         width: 200px;
