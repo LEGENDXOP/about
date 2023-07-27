@@ -10,7 +10,16 @@ body {
     font-family: Arial, sans-serif;
 }
 
-
+.card-img {
+            width: 30px;
+            height: auto;
+        }
+        .card {
+            border-radius: 20px;
+        }
+        body {
+            background: #e9ecef;
+        }
 
 .logo {
     width: 100px;
