@@ -10,6 +10,12 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
+.card-img-top {
+        width: 500px;
+        height: auto;
+}
+
 .card-img {
             width: 30px;
             height: auto;
